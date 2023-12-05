@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-05T11:47:29 IST" name="Suite" finished-at="2023-12-05T11:48:22 IST" duration-ms="53561">
+    <groups>
+    </groups>
+    <test started-at="2023-12-05T11:47:29 IST" name="Test" finished-at="2023-12-05T11:48:22 IST" duration-ms="53561">
+      <class name="TestCases.Login_TestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.Login_TestCases@35d019a3]" started-at="2023-12-05T11:47:54 IST" name="launchBrowser" finished-at="2023-12-05T11:48:19 IST" duration-ms="24924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="InValidLoginTest()[pri:0, instance:TestCases.Login_TestCases@35d019a3]" started-at="2023-12-05T11:48:19 IST" name="InValidLoginTest" finished-at="2023-12-05T11:48:21 IST" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLoginTest -->
+        <test-method signature="ValidLoginTest()[pri:0, instance:TestCases.Login_TestCases@35d019a3]" started-at="2023-12-05T11:48:21 IST" name="ValidLoginTest" finished-at="2023-12-05T11:48:22 IST" depends-on-methods="TestCases.Login_TestCases.InValidLoginTest" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest -->
+      </class> <!-- TestCases.Login_TestCases -->
+      <class name="TestCases.Register_TestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.Register_TestCases@f6efaab]" started-at="2023-12-05T11:47:29 IST" name="launchBrowser" finished-at="2023-12-05T11:47:46 IST" duration-ms="17171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="VerifyRegistrationWithBlankData()[pri:0, instance:TestCases.Register_TestCases@f6efaab]" started-at="2023-12-05T11:47:46 IST" name="VerifyRegistrationWithBlankData" finished-at="2023-12-05T11:47:51 IST" duration-ms="4857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistrationWithBlankData -->
+        <test-method signature="VerifyRegistrationWithvalidData()[pri:0, instance:TestCases.Register_TestCases@f6efaab]" started-at="2023-12-05T11:47:51 IST" name="VerifyRegistrationWithvalidData" finished-at="2023-12-05T11:47:54 IST" depends-on-methods="TestCases.Register_TestCases.VerifyRegistrationWithBlankData" duration-ms="3073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistrationWithvalidData -->
+      </class> <!-- TestCases.Register_TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
